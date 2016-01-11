@@ -21,6 +21,10 @@ The project uses CMake so getting other environments set up should be doable. (T
 
 ## Usage
 
+The game is run by passing in the stockfighter settings file:
+
+    ./stockfighter /path/to/settings.stockfighter
+
 The level is instantiated from within `game_t::impl_t::start`:
 
         engine_m.start("first_steps");
