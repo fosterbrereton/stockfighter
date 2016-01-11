@@ -1,0 +1,4 @@
+build/
+*.log
+settings/*.csv
+settings/*.md
